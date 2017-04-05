@@ -6,8 +6,8 @@ body{
  background-color:#FFFFFF;
  color:#000000;
  font-family: 'Varela Round', sans-serif;
- font-size: 16px;
- line-height:20px;
+ font-size: 14px;
+ line-height: 20px;
  li
 }
 
@@ -22,14 +22,14 @@ div{
 }
 
 /* HEADER */
-#pageHeader{
+#headerImage{
     text-indent: -9999px; 
-	background:#FFFFFF url(img/pageHeader_200x268.png) no-repeat;
-	height:268px;
-	width:200px;
-	position:relative;
-	left:40%;
-	margin-top:15px;
+	background: #FFFFFF url(../img/pageHeader_200x268.png) no-repeat;
+	height: 268px;
+	width: 200px;
+	position: relative;
+	margin-top: 15px;
+    margin: 0 auto;
 }
 
 #headerName {
@@ -62,48 +62,40 @@ div{
 	height:360px; 
 }
 
-.columnItem .experienceHeader {
-   text-indent: -9999px;
-   background:#FFFFFF url(img/col_01.png) no-repeat;
-   height:24px;
-}
-
-.columnItemSml .skillsHeader{
-    text-indent: -9999px; 
-    background:#FFFFFF url(img/col_02.png) no-repeat;
-    margin-left:20px;
-    height:23px;
-}
-
-.columnItem .contactHeader{
-    text-indent: -9999px; 
-    background:#FFFFFF url(img/col_03.png) no-repeat;
-    height:24px;
-}
-
-.columnItem .skillsList{
+.columnItemSml .skillsList{
     margin:20px;
+    padding-left: 0px;
+    font-size:20px;
+    line-height: 28px;
 }
 
 /* SECTION HEADER */
 .sectionHeader{
     clear:left;
-    font-size:12px;
     color:#ffffff;
     background-color:#444444;
-    padding:6px;
+    padding:10px;
 }
 
 /* EXPERIMENTS */
 .experiments {
     display: flex;
-    padding: 20px 0;
     flex-wrap:wrap;
     justify-content: space-around;
+    height: 200px;
 }
 
 .experimentsItem {
     padding-right: 20px;
+}
+
+.experimentsItem img {
+    border: 1px solid black;
+}
+
+.experimentsItem p {
+    padding: 10px;
+    width: 200px;
 }
 
 
@@ -134,59 +126,3 @@ div{
     margin-left: 10px;
     width:600px;
 }
-
-
-
-
-
-/*
-
-
-
-
-.numLink{
-     margin-right:8px;
-     float:left;
-     width:20px;
-     cursor:hand;
-    color:#331403;
-    text-decoration:underline;
-}
-
-
-
-#backToHome {
-   margin-top: 10px;
-   float: right;
-   color: #444444;
-   text-decoration: none;
-}
-
-
-#pquote {
-    clear:right;
-    margin-top:10px;
-    font-size:12px;
-	color:#ffffff;
-    background-color:#444444;
-    padding:6px;
-}
-
-#pleftcol{
-    float:left;
-    width:560px;
-    display:inline;
-}
-
-#prightcol{
-   margin-left:14px;
-   float:left;
-   width:150px;
-   margin:left;
-}
-
-#prightcol .item{
-    border-left:6px solid #444444;
-    padding-left:6px;
-    
-}*/
