@@ -1,0 +1,251 @@
+<data>
+
+<matches>
+
+
+<match id="0" asset1="71_68_7" asset2="71_68_14">
+<theme>Shopping</theme>
+<comment>Correct! You would come across both of these objects when out shopping.</comment>
+</match>
+
+<match id="1" asset1="31_81_1" asset2="70_162_6a">
+<theme>Dancing</theme>
+<comment>Correct! Shoes and a tutu to complete a ballet dancer’s costume.</comment>
+</match>
+
+<match id="2" asset1="2000_157_1" asset2="2000_208_3">
+<theme>Music</theme>
+<comment>Correct! Two musical instruments.</comment>
+</match>
+
+
+<match id="3" asset1="71_18" asset2="73_103_2">
+<theme>Toys and Games</theme>
+<comment>Correct! Both these vehicles are actually toys.</comment>
+</match>
+
+
+<match id="4" asset1="76_107_3_a" asset2="90_370_52_va">
+<theme>Football</theme>
+<comment>Correct! These two objects would be given out at football matches.</comment>
+</match>
+
+
+<match id="5" asset1="73_33_13" asset2="73_33_11">
+<theme>Punch and Judy shows </theme>
+<comment>Correct! No Punch and Judy show could have started without these two puppets. </comment>
+</match>
+
+
+<match id="6" asset1="NN10341" asset2="83_265_1">
+<theme>Cinema</theme>
+<comment>Correct! Both these objects could be found in a cinema.</comment>
+</match>
+
+<match id="7" asset1="2004_46" asset2="74_141_8">
+<theme>British Empire</theme>
+<comment>Correct! Two souvenirs from The British Empire Exhibition of 1924.</comment>
+</match>
+
+
+<match id="8" asset1="88_182_1" asset2="82_471">
+<theme>Festival of Britain</theme>
+<comment>Correct! Two souvenirs from the Festival of Britain.</comment>
+</match>
+
+
+<match id="9" asset1="2000_27_1a" asset2="2000_28_4">
+<theme>Celebrating the Millennium</theme>
+<comment>Correct! A visitor to the Millennium Dome would have come across both these objects. </comment>
+</match>
+
+
+<match id="10" asset1="94_92_1a" asset2="94_92_1b">
+<theme>London Marathon</theme>
+<comment>Correct! These two objects had their part to play in the London Marathon.</comment>
+</match>
+
+
+<match id="11" asset1="81_367" asset2="83_133">
+<theme>Motoring</theme>
+<comment>Correct! To drive a car in the early 1900s, you would have needed both these objects. </comment>
+</match>
+
+</matches>
+
+
+<assets>
+
+
+<asset id="0" matchid="0" assetid="71_68_7" level="1" linkid="121899">
+<name>Cash register</name>
+<caption>A cash register from Woolworths</caption>
+<description>This cash register was used at a Woolworths store in Whetstone. The first Woolworths store in London opened in 1912 and was popular because of its low prices.</description>
+</asset>
+
+
+<asset id="1" matchid="0" assetid="71_68_14" level="1" linkid="65798">
+<name>Confectionery scales</name>
+<caption>Scales from Woolworths</caption>
+<description>In 1953, Woolworths were the first shop to offer self-service sweets, before that people were always served. Although selling sweets in pre-packed bags wasn’t popular, their pic’n’mix counter was.</description>
+</asset>
+
+
+<asset id="2" matchid="1" assetid="31_81_1" level="1" linkid="82671">
+<name>Tutu</name>
+<caption>Anna Pavlova’s ballet dress</caption>
+<description>Famous ballerina Anna Pavlova wore this dress as the swan in Swan Lake. First performed in 1907, Swan Lake was a turning point in ballet history because of its emotional approach to dance and music.</description>
+</asset>
+
+
+<asset id="3" matchid="1" assetid="70_162_6a" level="1" linkid="445694">
+<name>Ballet shoes</name>
+<caption>Anna Pavlova’s pink satin ballet shoes</caption>
+<description>These shoes belonged to the famous ballerina Anna Pavlova. Her most famous role was as the swan in Swan Lake which she performed many times in London in the 1920s.</description>
+</asset>
+
+<asset id="4" matchid="2" assetid="2000_157_1" level="1" linkid="524026">
+<name>Drum</name>
+<caption>African drum</caption>
+<description>The Azido Pan African Dance Ensemble uses this drum as part of their performances. They bring the richness of traditional African dance to today’s multicultural audience.</description>
+</asset>
+
+
+<asset id="5" matchid="2" assetid="2000_208_3" level="1" linkid="530630">
+<name>Harmonium</name>
+<caption>Harmonium from the Brent Indian Association</caption>
+<description>This harmonium was used by the Brent Indian Association between 1960 and 1999, to teach local Indian people of their heritage. A harmonium makes sound by having air blown through its reeds.</description>
+</asset>
+
+
+<asset id="6" matchid="3" assetid="71_18" level="1" linkid="52689">
+<name>Toy fire engine</name>
+<caption>A Lesney ‘Matchbox’ toy fire engine</caption>
+<description>This ‘Matchbox’ Merryweather fire engine was bought in 1971 for 60p from Hamley’s toy store in Regent Street.</description>
+</asset>
+
+
+<asset id="7" matchid="3" assetid="73_103_2" level="1" linkid="42979">
+<name>Toy car</name>
+<caption>A model Vauxhall Town Coupe car</caption>
+<description>Three brothers called William, Walter and Arthur Lines started a toy company in 1919 which made model cars and lorries like this one. Because three ‘lines’ make a triangle, they called their company Tri-Ang.</description>
+</asset>
+
+
+<asset id="8" matchid="4" assetid="76_107_3_a" level="1" linkid="121595">
+<name>Football programme</name>
+<caption>Tottenham Hotspur football programme, 1973</caption>
+<description>Tottenham Hotspur printed this programme for its home league division one match against West Ham United on 29 December 1973.</description>
+</asset>
+
+
+<asset id="9" matchid="4" assetid="90_370_52_va" level="1" linkid="121591">
+<name>Football programme</name>
+<caption>Arsenal football programme from 1967</caption>
+<description>Arsenal Football Club produced this football programme for its home league division one match against Fulham in 1967. In it there is a history of match results between Arsenal and Fulham.</description>
+</asset>
+
+
+<asset id="10" matchid="5" assetid="73_33_13" level="1" linkid="445805">
+<name>Mr Punch puppet</name>
+<caption>Mr Punch hand puppet used by Percy Press</caption>
+<description>This Mr Punch had puppet was used by the puppeteer Percy Press. He put on lots of puppet shows during the Festival of Britain in 1951.</description>
+</asset>
+
+
+<asset id="11" matchid="5" assetid="73_33_11" level="1" linkid="48574">
+<name>Crocodile puppet</name>
+<caption>A crocodile puppet used in Punch and Judy shows</caption>
+<description>This crocodile hand puppet was used by Percy Press in many Punch and Judy shows between 1925 and 1950. Percy Press was known as the ‘Amusing Amazer,’ and performed regularly at Madame Tussauds.</description>
+</asset>
+
+<asset id="12" matchid="6" assetid="NN10341" level="2" linkid="60647">
+<name>Cinema seat</name>
+<caption>A cinema seat</caption>
+<description>This seat was used in a London cinema from the 1940s to the 1960s.</description>
+</asset>
+
+<asset id="13" matchid="6" assetid="83_265_1" level="2" linkid="60288">
+<name>Seating indicator</name>
+<caption>A sign showing the seat layout in a cinema</caption>
+<description>This sign shows the seat layout in a cinema. It was used in an ABC cinema in Windsor. All ABC cinemas used the same signs.</description>
+</asset>
+
+
+<asset id="14" matchid="7" assetid="2004_46" level="2" linkid="730727">
+<name>Pendant</name>
+<caption>A pendant from the British Empire Exhibition of 1924</caption>
+<description>This souvenir pendant was bought by Miss Grace Burgess from the British Empire Exhibition in 1924 when she was 17 years old. The lid is engraved with the Exhibition’s lion symbol.</description>
+</asset>
+
+<asset id="15" matchid="7" assetid="74_141_8" level="2" linkid="45973">
+<name>Tea caddy</name>
+<caption>Tea caddy from the British Empire Exhibition in 1924</caption>
+<description>The British Empire Exhibition of 1924 was held at Wembley. Many souvenirs were made for the Exhibition, including this tea caddy by Liptons.</description>
+</asset>
+
+
+<asset id="16" matchid="8" assetid="88_182_1" level="2" linkid="50536">
+<name>Egg-cup</name>
+<caption>Festival of Britain egg-cup souvenir</caption>
+<description>A visitor to the Festival of Britain in 1951 could have bought this egg-cup as a souvenir. Many souvenirs for the Festival were decorated with the Festival’s official star symbol.</description>
+</asset>
+
+
+<asset id="17" matchid="8" assetid="82_471" level="2" linkid="531664">
+<name>Drinking glass</name>
+<caption>Festival of Britain glass souvenir</caption>
+<description>This glass is a souvenir from the 1951 Festival of Britain. On it is the Festival star symbol with the head of Britannia. Britannia is a female warrior symbol who represents Great Britain.</description>
+</asset>
+
+<asset id="18" matchid="9" assetid="2000_27_1a" level="2" linkid="551887">
+<name>Dome ticket</name>
+<caption>Senior citizen ticket for the Millennium Dome</caption>
+<description>A ticket admitting one senior citizen into the Millennium Dome on January 1st 2000, the first day it opened to the public. When it closed on 31 December 2000, 6.5 million visitors had visited the Dome.</description>
+</asset>
+
+
+<asset id="19" matchid="9" assetid="2000_28_4" level="2" linkid="522077">
+<name>Dome carrier bag</name>
+<caption>Plastic carrier bag from the Millennium Dome</caption>
+<description>This yellow plastic bag from the Millennium Dome is printed with the Dome’s logo and the slogan, ‘One amazing day.’ There were 14 zones to visit in the Dome with different exhibitions and activities.</description>
+</asset>
+
+<asset id="20" matchid="10" assetid="94_92_1a" level="2" linkid="60784">
+<name>Finishing tape</name>
+<caption>The finishing tape from the 1992 London Marathon</caption>
+<description>To finish the London Marathon in 1992, you would have had to run through this finishing tape. The first London Marathon was run on 29 March 1981.</description>
+</asset>
+
+
+<asset id="21" matchid="10" assetid="94_92_1b" level="2" linkid="60785">
+<name>Runner’s kitbag</name>
+<caption>Runner’s kitbag from 1993 London Marathon</caption>
+<description>This runner’s kitbag was used in the 1993 London Marathon. The Marathon, which was first run in 1981, starts in Greenwich Park, goes past the Tower of London and finishes at Buckingham Palace.</description>
+</asset>
+
+<asset id="22" matchid="11" assetid="81_367" level="2" linkid="57643">
+<name>Goggles</name>
+<caption>Driving goggles from between 1910 and 1914</caption>
+<description>Most early cars were open-topped, so drivers needed protection from the wind, rain, mud and dust. These goggles with yellow-tinted lenses would have been worn by the driver and passengers.</description>
+</asset>
+
+<asset id="23" matchid="11" assetid="83_133" level="2" linkid="530587">
+<name>Driver’s licence</name>
+<caption>Driver’s licence from 1923</caption>
+<description>This driver’s licence was first issued in 1923 and was owned by Mr William Albesici. There are several licences inside - the last one ran out in 1931.</description>
+</asset>
+
+</assets>
+
+</data>
+
+
+
+
+
+
+
+
+
+
