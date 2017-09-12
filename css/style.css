@@ -51,9 +51,9 @@ a:link, a:visited, a:hover {
 
 /* HEADER */
 #headerImage{
-	background: #FFFFFF url(../img/pageHeader_200x268.png) no-repeat;
-	height: 268px;
-	width: 200px;
+  background: #FFFFFF url(../img/pageHeader_200x268.png) no-repeat;
+  height: 268px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -76,12 +76,46 @@ a:link, a:visited, a:hover {
 }
 
 
-/* ---- Font Review Journal Experiment ---- */
+/* ---- Font Review Journal Redesign ---- */
 /* http://fontreviewjournal.com/timmons-ny/ */
 
-.test {
-  padding: 240px 0 160px 0;
-      margin: 0 auto;
+.header {
+    padding-top: 40px;
+    background-color: rgb(252, 211, 0);
+}
+
+.header_box_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header_box {
+}
+
+
+.header_logo {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Varela Round',sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    max-width: 240px;
+}
+
+.header_nav {
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: 'Varela Round',sans-serif;
+    font-size: 16px;
+}
+
+
+.intro_box_container {
+    padding: 240px 0 160px 0;
+    margin: 0 auto;
     max-width: 1520px;
     width: 90%;
     align-items: flex-start;
@@ -91,7 +125,11 @@ a:link, a:visited, a:hover {
     flex-direction: row;
 }
 
-.component-post-aside {
+.intro_box {
+  
+}
+
+.intro_skills {
   font-family: 'Varela Round',sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -104,7 +142,7 @@ a:link, a:visited, a:hover {
     border:solid 0 black;
 }
 
-.block-post__title {
+.intro_cta {
     font-family: 'Varela Round',sans-serif;
     font-size: 90px;
     font-weight: 500;
@@ -114,46 +152,6 @@ a:link, a:visited, a:hover {
      border:solid 0 black;
 }
 
-.block-header {
-    left: 0;
-    padding-top: 40px;
-    /*position: absolute;*/
-    top: 0;
-    width: 100%;
-    z-index: 10;
-    background-color: rgb(252, 211, 0);
-}
-
-.block-header__boxes {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 0 auto;
-    max-width: 1520px;
-    width: 90%;
-}
-
-.block-header__box {
-    /*position: relative;*/
-}
-
-.component-logo {
-    display: block;
-    line-height: 1.2;
-    max-width: 240px;
-    text-transform: uppercase;
-    font-family: 'Varela Round',sans-serif;
-    font-size: 24px;
-}
-
-.component-navigation {
-    letter-spacing: .05em;
-    text-transform: uppercase;
-    font-family: 'Varela Round',sans-serif;
-    font-size: 16px;
-}
 /* ================================= 
   Media Queries
 ==================================== */
