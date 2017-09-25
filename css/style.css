@@ -4,19 +4,17 @@
 
 * {
     box-sizing: border-box;
+    border:1px solid grey;
 }
 
 body{
   color: #202020;
- background-color:#FFFFFF;
- font-family: 'Varela Round', sans-serif;
- font-size: .95em;
- line-height: 20px;
+  background-color:#FFFFFF;
+  font-family: 'Varela Round', sans-serif;
+  font-size: .95em;
+  line-height: 20px;
 }
 
-h2 {
-    padding-top:6px;
-}
 
 a:link, a:visited, a:hover { 
     color: black;
@@ -28,42 +26,38 @@ a:link, a:visited, a:hover {
   Base Layout Styles
 ==================================== */
 
-/* ---- Layout Containers ---- */
-.container{
-    margin: 0 auto;
-    margin-bottom: 30px;
+/* ----- sections  ----- */
+
+.section-intro {
+  background: #FFFFFF url(../img/spark-hero.jpg) no-repeat;
 }
 
-.main-footer {
-    padding: 2em 2em;
-    background-color: rgb(252, 211, 0);
-    padding-top: 300px;
+.section-intro {
+  background-color: #FFFFFF;
 }
 
+.section-recent-projects {
+  background-color: #e5e5e5;
+}
 
-/* ---- Page Elements ---- */
+.section-portfolio {
+  background-color: white;
+}
 
-
-
-/* ---- Font Review Journal Redesign ---- */
-/* http://fontreviewjournal.com/timmons-ny/ */
 
 /* ----- header ----- */
 .header {
-    padding-top: 40px;
     background-color: rgb(252, 211, 0);
 }
 
-.header_box_container {
+.header_content {
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
     width: 90%;
-}
-
-.header_box {
 }
 
 
@@ -80,12 +74,10 @@ a:link, a:visited, a:hover {
     font-size: 16px;
 }
 
-/* ----- intro ----- */
-.intro {
-  background: #FFFFFF url(../img/spark-hero.jpg) no-repeat;
-}
 
-.intro_box_container {
+/* ----- intro ----- */
+
+.intro_content {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -96,9 +88,6 @@ a:link, a:visited, a:hover {
     margin: 0 auto;
 }
 
-.intro_box {
-
-}
 
 .intro_skills {
     font-size: 30px;
@@ -124,22 +113,10 @@ a:link, a:visited, a:hover {
   padding:15px 0px 15px 15px;
 }
 
-/* ----- project intro----- */
-.info_1 {
-  background-color: #fff;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: -.05em;
-  padding: 60px 60px 30px 60px;
-}
 
-.info_1 p {
-  width: 80%;
-  margin: 0 auto;
-}
+/* ----- subintro----- */
 
-.info_2_container{
+.subintro_content{
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -149,7 +126,16 @@ a:link, a:visited, a:hover {
   margin: 0 auto;
 }
 
-.info_2_text {
+.subintro_cta {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -.05em;
+  padding: 60px 60px 30px 60px;
+}
+
+
+.subintro_text {
   background-color: #fff;
   color: grey;
   font-size: 20px;
@@ -159,17 +145,15 @@ a:link, a:visited, a:hover {
   max-width:900px;
 }
 
-.info_2_image {
+.subintro_image {
   width: 200px;
   border-radius: 30%;
 }
 
-/* ----- project ----- */
-.projects {
-  background-color: #e5e5e5;
-}
 
-.project_box_container {
+/* ----- project ----- */
+
+.project_content {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -182,10 +166,6 @@ a:link, a:visited, a:hover {
   padding-right: 100px;
   margin-bottom: 50px;
   margin-top: 30px;
-}
-
-.project_box {
-
 }
 
 .project_box_image {
@@ -217,28 +197,15 @@ a:link, a:visited, a:hover {
     text-indent: 40px;
 }
 
-/* ----- portfolio ----- */
-.portfolio {
-  background-color: white;
-}
-
-/* ----- info ----- */
-.info {
-  background-color: lightgrey;
-  padding: 60px 60px 120px 60px;
-}
-
-.section_title {
-  margin-right:50px;
-}
 
 /* ----- footer ----- */
+
 .footer {
     padding-top: 200px;
     background-color: rgb(252, 211, 0);
 }
 
-.footer_box_container {
+.footer_content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -254,6 +221,7 @@ a:link, a:visited, a:hover {
 /* ================================= 
   Media Queries
 ==================================== */
+/*
 @media (min-width: 1000px) {
    .info {
         display: flex;
@@ -275,3 +243,4 @@ a:link, a:visited, a:hover {
          background-color:white;
    }
 }
+*/
