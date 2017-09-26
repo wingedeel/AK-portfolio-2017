@@ -4,7 +4,7 @@
 
 * {
     box-sizing: border-box;
-    border:1px solid grey;
+    border:0px solid grey;
 }
 
 body{
@@ -29,19 +29,23 @@ a:link, a:visited, a:hover {
 /* ----- sections  ----- */
 
 .section-intro {
-  background: #FFFFFF url(../img/spark-hero.jpg) no-repeat;
+  background: #FFFFFF url(../img/intro-image-cropped.png) no-repeat;
 }
 
-.section-intro {
+.section-subintro {
   background-color: #FFFFFF;
 }
 
 .section-recent-projects {
   background-color: #e5e5e5;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .section-portfolio {
   background-color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 
@@ -88,16 +92,6 @@ a:link, a:visited, a:hover {
     margin: 0 auto;
 }
 
-
-.intro_skills {
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1.1;
-    letter-spacing: -.05em;
-    vertical-align: baseline;
-    padding-right:100px;
-}
-
 .intro_cta {
     font-size: 80px;
     font-weight: 500;
@@ -106,11 +100,22 @@ a:link, a:visited, a:hover {
     max-width: 800px;
 }
 
-.intro_github-link{
+.intro_skills {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -.05em;
+    vertical-align: baseline;
+    margin-right:100px;
+}
+
+.intro_github-button{
   margin-top:20px;
   background-color:rgb(252, 211, 0);
   font-size:.65em;
   padding:15px 0px 15px 15px;
+  border: 3px solid black;
+  border-radius:5%;
 }
 
 
@@ -124,6 +129,7 @@ a:link, a:visited, a:hover {
   flex-direction: row;
   width:80%;
   margin: 0 auto;
+  padding-bottom:40px;
 }
 
 .subintro_cta {
@@ -140,18 +146,28 @@ a:link, a:visited, a:hover {
   color: grey;
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.1;
+  line-height: 1.3;
   letter-spacing: -.05em;
   max-width:900px;
 }
 
 .subintro_image {
-  width: 200px;
-  border-radius: 30%;
+  border-radius: 50%;
+  margin-top:20px;
+  margin-right: 60px;
 }
 
 
 /* ----- project ----- */
+.project_header {
+  font-size: 30px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  margin-top: 20px;
+  color: darkgrey;
+}
 
 .project_content {
   display: flex;
@@ -160,50 +176,58 @@ a:link, a:visited, a:hover {
   justify-content: space-around;
   flex-direction: row;
   max-width: 1520px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
-  padding: 20px 0;
-  padding-right: 100px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 20px 100px 30px 20px;
 }
 
 .project_box_image {
   display: block;
   height: auto;
   max-width: 100%;
-  margin-bottom: 10px;
   padding-right: 20px;
-  max-width: 360px;
+  max-width: 350px;
 }
 
 .project_box_text{
-  padding-left:20px;
-  max-width:500px;
+  max-width:600px;
+  padding-right: 20px;
 }
 
 .project_box_text h2 {
-    font-family: "Untitled Sans Web",sans-serif;
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.3;
-    margin-bottom: 10px;
+    padding:0;
+    margin:0;
 }
 
 .project_box_text p {
-    font-family: "Copernicus Web",serif,serif;
-    font-size: 16px;
-    line-height: 1.75;
-    text-indent: 40px;
+    font-family: 'Unna', serif;
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 
 /* ----- footer ----- */
 
 .footer {
-    padding-top: 200px;
     background-color: rgb(252, 211, 0);
 }
+
+.footer_title {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -.05em;
+    padding-top:40px;
+    margin-bottom:20px;
+}
+
 
 .footer_content {
     display: flex;
@@ -214,8 +238,22 @@ a:link, a:visited, a:hover {
     width: 90%;
 }
 
+.footer_contact_item {
+  display:inline;
+  margin-right: 50px;
+  font-size: 24px;
+}
+
+.footer_contact_icon {
+  margin-right:10px;
+}
+
+.footer_contact_text {
+}
+
 .footer_copyright {
-  bottom:0;
+   padding-top:60px;
+   font-size: 18px;
 }
 
 /* ================================= 

@@ -5,13 +5,14 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet"  type='text/css'>
 </head>
 <body>
 
 	<!-- HEADER -->
 	<header class="header">
 		<div class="header_content">
-			<a href="http://fontreviewjournal.com" class="header_logo">Anne Kotecha</a>
+			<a class="header_logo">Anne Kotecha</a>
 			<nav class="header_nav"> 
 				<a href="">Projects</a> 
 				<a href="">Portfolio</a>
@@ -31,11 +32,15 @@
 				<div class="intro_skills">
 					<ul>
 						<li>Javascript</li>
-						<li>CSS</li>
+						<li>HTML5</li>
+						<li>CSS3</li>
 						<li>React</li>
 						<li>D3.js</li>
 					</ul>
-					<div class="intro_github-link">Github</div>
+					<div class="intro_github-button">
+						<img width="30px" src="img/github.svg">
+						<span>Github</span>
+					</div>
 				</div>
 				</div>
 			</div>
@@ -50,7 +55,7 @@
 					<p class="subintro_text">Hello, I'm Anne. I am a front end developer with five years' professional experience working in the UK and Europe with a portfolio of clients from around the world, most recently as a Magento certified front end developer at Meanbee, the UK's top Magento e-commerce agency.</p>
 					<p class="subintro_text">Hello, I'm Anne. I am a front end developer with five years' professional experience working in the UK and Europe with a portfolio of clients from around the world, most recently as a Magento certified front end developer at Meanbee, the UK's top Magento e-commerce agency.</p>
 				</div>
-				<img class="subintro_image" src="img/linkedin.jpg">
+				<img class="subintro_image" width="150px" src="img/linkedin.png">
 			</div>
 		</div>
 
@@ -58,30 +63,40 @@
 		
 		<div class="section-recent-projects">
 
+			<div class="project_header">RECENT PROJECTS</div>
+
 			<div class="project_content">
-					<img class="project_box_image" src="img/weekend-cups.jpg">
+					<img class="project_box_image" src="img/react-chroma.png">
+					<div class="project_box_text">
+						<h2>Colour Caterpillar - React Chroma</h2>
+						<p>
+						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s, but its bubbly charm has allowed it to endure for decades in both “high-end” and “low-brow” design applications.
+						</p>
+					</div>
+			</div>
+
+			<div class="project_content">
+					<div class="project_box_text">
+						<h2>Artist Explorer - Spotify and D3</h2>
+						<p>
+						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s, but its bubbly charm has allowed it to endure for decades in both “high-end” and “low-brow” design applications.
+						</p>
+					</div>
+				<img class="project_box_image" src="img/d3-spotify.png">
+			</div>
+
+			<div class="project_content">
+					<img class="project_box_image" src="img/ak-image-search.png">
 					<div class="project_box_text">
 						<h2>
 						Is there a font that’s been used as successfully as often as Cooper Black
 						</h2>
 						<p>
-						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s, but its bubbly charm has allowed it to endure for decades in both “high-end” and “low-brow” design applications. Many of us encounter Cooper Black in some form every day, whether it’s on a candy wrapper, a strip mall sign, or an album cover.
+						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s, but its bubbly charm has allowed it to endure for decades in both “high-end” and “low-brow” design applications.
 						</p>
 					</div>
 			</div>
-
-			<div class="project_content">
-					<div class="project_box_text">
-						<h2>
-						Is there a font that’s been used as successfully as often as Cooper Black 
-						</h2>
-						<p>
-						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s, but its bubbly charm has allowed it to endure for decades in both “high-end” and “low-brow” design applications. Many of us encounter Cooper Black in some form every day, whether it’s on a candy wrapper, a strip mall sign, or an album cover.
-						</p>
-					</div>
-				<img class="project_box_image" src="img/thundercat.jpg">
-			</div>
-
+		</div>
 
 		<div class="section-portfolio">
 
@@ -98,7 +113,7 @@
 			</div>
 
 			<div class="project_content">
-				<img class="project_box_image" src="img/thundercat.jpg">
+				<img class="project_box_image" src="img/weekend-cups.jpg">
 				<div class="project_box_text">
 					<h2>
 					Is there a font that’s been used as successfully as often as Cooper Black 
@@ -112,10 +127,17 @@
 				
 
 	<footer class="footer">
+		<p class="footer_title">Contact</p>
 		<div class="footer_content">
 			<div>
-				<h1>Contact</h1>
-				<p>anne.kotecha@gmail.com</p>
+				<div class="footer_contact_item">
+					<span class="footer_contact_icon"><img width="30px" src="img/email.svg"></span>
+					<span class="footer_contact_text">anne.kotecha@gmail.com</span>
+				</div>
+				<div class="footer_contact_item">
+					<span class="footer_contact_icon"><img width="30px" src="img/linkedin.svg"></span>
+					<span class="footer_contact_text">anne.kotecha@gmail.com</span>
+				</div>
 			</div>
 			<div class="footer_copyright">
 				<p>&copy;2017 Anne Kotecha</p>
