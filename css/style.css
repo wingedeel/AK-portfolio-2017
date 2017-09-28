@@ -161,10 +161,10 @@ a:link, a:visited, a:hover {
 /* ----- project ----- */
 .project_header {
   font-size: 40px;
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   margin-bottom: 30px;
-  padding-left: 40px;
+  padding-left: 30px;
   margin-top: 30px;
 }
 
@@ -185,12 +185,13 @@ a:link, a:visited, a:hover {
   display: block;
   height: auto;
   max-width: 100%;
-  padding-right: 0px;
+  margin-right: 20px;
   max-width: 400px;
 }
 
 .project_box_text{
-  max-width:470px;
+  max-width:430px;
+  margin-right:20px;
 }
 
 .project_box_text h2 {
@@ -243,7 +244,7 @@ a:link, a:visited, a:hover {
 }
 
 .footer_contact_icon {
-  margin-right:10px;
+  margin-right:5px;
 }
 
 .footer_contact_text {
