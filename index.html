@@ -2,6 +2,7 @@
 <html lang="n">
 <head>
 	<title>Anne Kotecha - Portfolio &copy;2017</title>
+	<meta name="viewport" content="width=device-width">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -11,7 +12,7 @@
 
 	<!-- HEADER -->
 	<header class="header">
-		<div class="header_content">
+		<div class="header_content" href="/">
 			<a class="header_logo">Anne Kotecha</a>
 			<nav class="header_nav"> 
 				<a href="#projects">Projects</a> 
@@ -21,13 +22,13 @@
 		</div>
 	</header>
 
-	<div>
+	<div class="container">
 
 		<!-- INTRO -->
 		<div class="section-intro">
 			<div class="intro_content">
 				<div class="intro_cta">
-					Front-End developer
+					Front-End Developer
 				</div>
 				<div class="intro_skills">
 					<ul>
@@ -66,11 +67,13 @@
 			<div class="project_header">Recent Projects</div>
 
 			<div class="project_content">
-					<img class="project_box_image" src="img/react-chroma.png">
+					<a href="http://www.annekotecha.co.uk/portfolio/projects/react-chroma/index.html" target="_blank">
+						<img class="project_box_image" src="img/react-chroma.png">
+					</a>
 					<div class="project_box_text">
-						<h2>Colour Caterpillar - React Chroma</h2>
+						<h2>Colour Caterpillar</h2>
 						<p>
-						A React app using chroma.js which allows the user to retrieve colour scheme information.
+						A React app which allows the user to retrieve colour scheme information.  Uses react-motion for the animation and chroma.js for colour retrieval.
 						</p>
 					</div>
 			</div>
@@ -79,18 +82,22 @@
 					<div class="project_box_text">
 						<h2>Artist Explorer</h2>
 						<p>
-						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s.
+						Initial exploration of the Spotify API.  Using D3.js to display the artist connections.
 						</p>
 					</div>
-				<img class="project_box_image" src="img/d3-spotify.png">
+				<a href="http://www.annekotecha.co.uk/portfolio/projects/d3-spotify/index.html" target="_blank">
+					<img class="project_box_image" src="img/d3-spotify.png">
+				</a>
 			</div>
 
 			<div class="project_content">
-					<img class="project_box_image" src="img/ak-image-search.png">
+					<a href="https://ak-image-search.herokuapp.com" target="_blank">
+						<img class="project_box_image" src="img/ak-image-search.png">
+					</a>
 					<div class="project_box_text">
 						<h2>Pixabay Image Search</h2>
 						<p>
-						Not many typefaces can represent an era just by being set on a page as well as Cooper Black represents the 1970’s.
+						Simple image search created in React and retrieving data from the Pixabay API.
 						</p>
 					</div>
 			</div>
@@ -112,7 +119,7 @@
 
 			<div class="project_content">
 				<a href="http://www.annekotecha.co.uk/esther_neslen/" target="_blank">
-					<img class="project_box_image" src="img/esther_neslen.png" width="350px">
+					<img class="project_box_image" src="img/esther_neslen.png">
 				</a>
 				<div class="project_box_text">
 					<h2>Esther Neslen</h2>
@@ -123,7 +130,7 @@
 			<div class="project_content">
 					<div class="project_box_text">
 						<h2>Budweiser</h2>
-						<p>Website commissioned by Budweiser for their Marlay Park music festival. As well as building the framework, I coded video and audio functionality, made extensive use of Fusekit for programmatic animation and used web services to communicate with the Budweiser backend.</p>
+						<p>Website commissioned by Budweiser for their Marlay Park music festival. I built the code framework, video functionality, programmatic animation. Web services communicated with the Budweiser backend.</p>
 					</div>
 					<a href="http://www.annekotecha.co.uk/budrising/index.html" target="_blank">
 						<img class="project_box_image" src="img/budrising.png">
@@ -155,18 +162,24 @@
 				
 
 	<footer id="contact" class="footer">
-		<p class="footer_title">Contact</p>
+		<p class="footer_header">Contact</p>
 		<div class="footer_content">
-			<div>
 				<div class="footer_contact_item">
 					<span class="footer_contact_icon"><img width="20px" src="img/email.svg"></span>
-					<span class="footer_contact_text">anne.kotecha@gmail.com</span>
+					<span class="footer_contact_text">
+					<a href="mailto:anne.kotecha@gmail.com">
+					anne.kotecha@gmail.com
+					</a>
+					</span>
 				</div>
 				<div class="footer_contact_item">
 					<span class="footer_contact_icon"><img width="20px" src="img/linkedin.svg"></span>
-					<span class="footer_contact_text">anne.kotecha@gmail.com</span>
+					<span class="footer_contact_text">
+					<a href="https://www.linkedin.com/in/anne-kotecha-9b4a883/">
+					https://www.linkedin.com/in/anne-kotecha-9b4a883
+					</a>
+				</span>
 				</div>
-			</div>
 			<div class="footer_copyright">
 				<p>&copy;2017 Anne Kotecha</p>
 			</div>

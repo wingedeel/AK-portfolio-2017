@@ -55,27 +55,30 @@ a:link, a:visited, a:hover {
 }
 
 .header_content {
-    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0 auto;
-    width: 90%;
+    padding-top: 40px;
 }
 
 
 .header_logo {
-    display: block;
     text-transform: uppercase;
     font-size: 24px;
     line-height: 1.2;
 }
 
 .header_nav {
+    display: flex;
+    flex-wrap: wrap;
     letter-spacing: .05em;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+.header_nav a {
+  padding-right: 10px;
 }
 
 
@@ -88,16 +91,14 @@ a:link, a:visited, a:hover {
     justify-content: space-between;
     flex-direction: row;
     padding: 140px 0 60px 0;
-    width: 80%;
-    margin: 0 auto;
 }
 
 .intro_cta {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -.05em;
-    max-width: 800px;
+    word-break: break-all;
 }
 
 .intro_skills {
@@ -127,8 +128,6 @@ a:link, a:visited, a:hover {
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: row;
-  width:80%;
-  margin: 0 auto;
   padding-bottom:40px;
 }
 
@@ -148,7 +147,6 @@ a:link, a:visited, a:hover {
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: -.05em;
-  max-width:800px;
 }
 
 .subintro_image {
@@ -161,11 +159,8 @@ a:link, a:visited, a:hover {
 /* ----- project ----- */
 .project_header {
   font-size: 40px;
-  width: 65%;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  padding-left: 30px;
-  margin-top: 30px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .project_content {
@@ -174,39 +169,29 @@ a:link, a:visited, a:hover {
   align-items: flex-start;
   justify-content: space-around;
   flex-direction: row;
-  max-width: 1520px;
-  width: 65%;
-  margin: 0 auto;
   margin-bottom: 10px;
-  padding: 20px 10px 80px 20px;
+  padding: 20px 0px 80px 0px;
 }
 
 .project_box_image {
-  display: block;
   height: auto;
   max-width: 100%;
   margin-right: 20px;
-  max-width: 400px;
 }
 
-.project_box_text{
-  max-width:430px;
-  margin-right:20px;
-}
 
 .project_box_text h2 {
     font-family: sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.1;
-    padding:0;
-    margin:0;
 }
 
 .project_box_text p {
     font-family: 'Unna', serif;
     font-size: 24px;
     line-height: 1.6;
+    margin-right: 10px;
 }
 
 
@@ -216,15 +201,13 @@ a:link, a:visited, a:hover {
     background-color: rgb(252, 211, 0);
 }
 
-.footer_title {
-    margin: 0 auto;
-    width: 90%;
+.footer_header {
     font-size: 50px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -.05em;
     padding-top:40px;
-    margin-bottom:20px;
+    padding-bottom:20px;
 }
 
 
@@ -233,13 +216,12 @@ a:link, a:visited, a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0 auto;
-    width: 90%;
 }
 
 .footer_contact_item {
   display:inline;
   margin-right: 50px;
+  margin-bottom: 20px;
   font-size: 24px;
 }
 
@@ -248,6 +230,7 @@ a:link, a:visited, a:hover {
 }
 
 .footer_contact_text {
+  word-break: break-all;
 }
 
 .footer_copyright {
@@ -258,26 +241,71 @@ a:link, a:visited, a:hover {
 /* ================================= 
   Media Queries
 ==================================== */
-/*
-@media (min-width: 1000px) {
-   .info {
-        display: flex;
-        justify-content: space-around;
-   }
-   .info-item {
-        border: solid 0 red;
-        padding-right: 30px;
-   } 
-   .projects {
-        display: flex;
-        flex-wrap:wrap;
-        justify-content: space-around;
-   }
-   .project-item {
-        width:284px;
-         border: solid 2px black;
-         border-radius:5px;
-         background-color:white;
-   }
-}
+/* 
+Target screens 769px and wider.
+Start with a simple one column layout and
+add advanced layout to this media query.
+Set max-width so the content can extend only
+to a certain width.
 */
+@media (min-width: 768px) {
+  .header_content {
+    width: 90%;
+    margin: 0 auto;
+    max-width:1520px;
+  }
+  .intro_content {
+    width: 80%;
+    margin: 0 auto;
+    max-width:1520px;
+  }
+  .subintro_content {
+    width:80%;
+    margin: 0 auto;
+    max-width:1520px;
+  }
+  .project_header {
+    width: 65%;
+    margin: 0 auto;
+    max-width:1520px;
+  }
+  .project_content {
+    width: 65%;
+    margin: 0 auto;
+    max-width: 1520px;
+  }
+  .footer_header {
+    width: 90%;
+    margin: 0 auto;
+    max-width:1520px;
+  }
+  .footer_content {
+    margin: 0 auto;
+    width: 90%;
+    max-width:1520px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .subintro_text {
+    max-width:800px;
+  }
+  .project_box_text{
+    max-width: 500px;
+  }
+  .project_box_image {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1824px) {
+  .subintro_text {
+    max-width:1200px;
+  }
+  .project_box_text{
+    max-width:950px;
+  }
+  .project_box_image {
+    max-width: 500px;
+  }
+}
