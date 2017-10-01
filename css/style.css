@@ -267,12 +267,12 @@ to a certain width.
   .project_header {
     width: 65%;
     margin: 0 auto;
-    max-width:1520px;
+    max-width:1200px;
   }
   .project_content {
     width: 65%;
     margin: 0 auto;
-    max-width: 1520px;
+    max-width: 1200px;
   }
   .footer_header {
     width: 90%;
@@ -284,18 +284,19 @@ to a certain width.
     width: 90%;
     max-width:1520px;
   }
-}
-
-@media (min-width: 1224px) {
   .subintro_text {
     max-width:800px;
   }
   .project_box_text{
-    max-width: 500px;
+    max-width: 400px;
   }
   .project_box_image {
     max-width: 400px;
   }
+}
+
+@media (min-width: 1224px) {
+  
 }
 
 @media (min-width: 1824px) {
