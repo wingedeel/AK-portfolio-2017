@@ -4,6 +4,8 @@
 
 * {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     border:0px solid grey;
 }
 
@@ -173,6 +175,7 @@ img {
   padding: 20px 0;
   width: 65%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .project_content {
